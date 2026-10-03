@@ -1,0 +1,7 @@
+experiments/debug/
+_dbg/
+build/
+__pycache__/
+*.pyc
+spheres.txt
+trajectory.txt
