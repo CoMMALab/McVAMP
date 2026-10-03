@@ -50,7 +50,7 @@ This repository holds the planner, the code generator and the experiments. The p
 Alright, just run 
 
 ```
-pip install "vamp-planner @ git+https://github.com/CoMMALab/vamp.git@stack-4-mcvamp" -C cmake.define.VAMP_ROBOTS="ur5;panda;fetch;baxter;<whatever-robot-you-want-from-our-list>"
+pip install "vamp-planner @ git+https://github.com/CoMMALab/vamp.git@stack-4-mcvamp" -C cmake.define.VAMP_ROBOTS="ur5;panda;fetch;<robot-name>"
 ```
 
 If for some reason that doesn't work out, please check out the correct branch from this subrepository linked in our repo and do a local `pip install . -C cmake.define.VAMP_ROBOTS="panda;..."`
